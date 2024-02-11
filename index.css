@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.main{
+    display:flex;
+    flex-direction:row;
+}
+img{
+    max-width: 50%; /* Make sure the image doesn't exceed the column width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below inline images */
+    margin: auto;
+    padding-top:15%;
+    padding-right:20%;
+}
+.sectioning{
+    padding-right:20%;
+}
+#home{
+    width: 400px; 
+    height: 430px; 
+    border: 1px solid grey;
+    margin: 50px auto;
+    text-align:center;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size:50px;
+    padding-top:20px;
+}
+input[type="text"],input[type="password"],input[type="submit"]{
+    width: 300px; 
+    height: 30px;
+    text-align:center;
+}
+.sub{
+    background-color:rgb(33, 133, 227);
+    border-radius:10px;
+    border:none;
+    color:white;
+    font-size:medium;
+}
+.fb{
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(2, 8, 51);
+}
+a{
+    text-decoration:none;
+}
+.bottom{  
+    width: 400px; 
+    height: 40px; 
+    border: 1px solid grey;
+    margin: 50px auto;
+    text-align:center;
+    padding-top:10px;
+}

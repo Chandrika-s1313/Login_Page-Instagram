@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.main{
+    display:flex;
+    flex-direction:row;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size:40px;
+}
+img{
+    max-width: 50%; /* Make sure the image doesn't exceed the column width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below inline images */
+    margin: auto;
+    padding-top:15%;
+    padding-right:20%;
+}
+.sectioning{
+    padding-right:20%;
+}
+#home{
+    width: 350px; 
+    height: 590px; 
+    border: 1px solid grey;
+    margin: 20px auto;
+    text-align:center;
+    /*padding : 10px -5px 40px -5px;*/
+}
+button{
+    color:white;
+    background-color:rgb(7, 116, 212);
+    border:none;
+    font-size:20px;
+    width: 250px; 
+    height: 30px;
+    text-align:center;
+    border-radius:20px;
+}
+.fb a{
+    text-decoration:none;
+    color:white;
+}
+.top{
+    font-size: large;
+    color:gray;
+}
+input[type="text"],input[type="password"],input[type="submit"]{
+    width: 250px; 
+    height: 30px;
+    text-align:center;
+}
+.space{
+    line-height:2.5;
+}
+.sub{
+    background-color:rgb(33, 133, 227);
+    border-radius:10px;
+    border:none;
+    color:white;
+    font-size:medium;
+}
+.terms{
+    color:grey;
+    text-decoration:none;
+}
+.bottom{
+    width:350px;
+    height:40px;
+    text-align:center;
+    padding-top:10px;
+    border: 1px solid grey;
+    margin: 50px auto;
+}
+.bottom a{
+    color:rgb(64, 123, 240);
+    text-decoration:none;
+}
